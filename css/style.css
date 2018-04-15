@@ -1,1 +1,306 @@
 
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+}
+
+.underline1 {
+    width: 50px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px 0;
+}
+
+
+/*====================================================
+                        HOME
+======================================================*/
+
+#home {
+    height: 80%;
+}
+
+.home-cover {
+    height: 100%;
+    background-image: url("../img/tlok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.home-box-inn {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-title h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.home-desc {
+    font-style: italic;
+    color: white;
+    padding: 10px 60px;
+
+}
+
+/*====================================================
+                        zabytki
+======================================================*/
+
+#zab-bg-diagonal {
+    width: 40%;
+    height: 500px;
+    float: right;
+    background-image: url("../img/zam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#zab-content-box {
+    float: left;
+    height: 500px;
+}
+
+#zab-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#zab-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#zab .content-title h3 {
+    text-align: left;
+}
+
+#zab .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#zab-desc p {
+    margin-bottom: 30px;
+}
+
+.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+/*====================================================
+                        historia
+======================================================*/
+
+#historia {
+    background-color: #f4f4f4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*====================================================
+                        banner
+======================================================*/
+
+#banner {
+    height: 300px;
+}
+
+.banner-bck {
+    height: 100%;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner-text {
+    color: darkblue;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/*====================================================
+                        atraKCJE    
+======================================================*/
+
+#atrakcje {
+    background-color: #123456;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+/*====================================================
+                        NEWSLETTER    
+======================================================*/
+
+#news {
+    background-color: darkgray;
+    padding: 20px 0px 20px 0px;
+}
+
+#news input[type='text'] {
+    border: 0;
+    border-radius: 600px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#news button[type='submit'] {
+    border: 0;
+    border-radius: 600px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#news .con {
+    margin-top: 0px;
+}
+
+.inp {
+    margin-top: -10px;
+}
+
+/*====================================================
+                        NEWSLETTER    
+======================================================*/
+
+#footer {
+    background-color: #0a0f0f;
+    padding: 20px 0px 20px 0px;
+    color: azure;
+    font-size: 20px;
+
+}
+
+/*====================================================
+                     mobile    
+======================================================*/
+
+@media (max-width:1200px) {
+    #zab-bg-diagonal {
+        width: 100%;
+        height: 50vh;
+    }
+    #zab-content-box {
+        height: 300px;
+    }
+    #footer {
+        text-align: center;
+    }
+    .content-title {
+        text-align: center;
+    }
+    .underline1 {
+        width: 50px;
+        height: 3px;
+        background-color: #34c6d3;
+        margin: 0 auto 30px auto;
+    }
+    #desc {
+        text-align: center;
+    }
+    .lista {
+        margin-left: 300px;
+    }
+    #news button[type='submit'] {
+        border: 0;
+        border-radius: 600px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 10px;
+
+    }
+
+}
+
+@media (max-width:900px) {
+    #zab-bg-diagonal {
+        width: 100%;
+        height: 50vh;
+    }
+    #zab-content-box {
+        height: 300px;
+    }
+    #footer {
+        text-align: center;
+    }
+    .content-title {
+        text-align: center;
+    }
+    .underline1 {
+        width: 50px;
+        height: 3px;
+        background-color: #34c6d3;
+        margin: 0 auto 30px auto;
+    }
+    #desc {
+        text-align: center;
+    }
+    .lista {
+        margin-left: 90px;
+    }
+    #news button[type='submit'] {
+        border: 0;
+        border-radius: 600px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 10px;
+
+    }
+
+}
